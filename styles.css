@@ -1,23 +1,13 @@
-.secondNav {
-    background-color: #fbfbf8;
-    margin-top: 0px;
-    width: 100%;
-    height: 46px;
-    display: flex;
-    justify-content: center;
-    border-top: 1px green;
-}
 
 i {
     color: grey;
     font-size: 22px;
-    margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
 .d-flex {
-    width: 1130px;
+    width: 1100px;
     margin-left: 20px;
 }
 
@@ -33,6 +23,11 @@ i {
 .nav-item {
     font-size: 14px;
     color: rgb(0, 0, 0);
+}
+
+.nav-language {
+    font-size: 14px;
+    color: rgb(82, 82, 82);
 }
 
 .nav2-item {
@@ -59,4 +54,14 @@ i {
 .learning {
     margin-left: 305px;
     margin-top: 75px;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+.btn {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 90px;
 }
