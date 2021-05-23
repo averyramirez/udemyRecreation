@@ -7,7 +7,7 @@ i {
 }
 
 .d-flex {
-    width: 1100px;
+    width: 1000px;
     margin-left: 20px;
 }
 
@@ -48,7 +48,8 @@ i {
 }
 
 .header {
-    margin-left: 285px;
+    display: flex;
+    justify-content: center;
 }
 
 .learning {
@@ -56,12 +57,40 @@ i {
     margin-top: 75px;
 }
 
-h2 {
-    font-size: 12px;
+.learningText {
+    font-size: 22px;
+}
+
+.learningTagline {
+    font-size: 16px;
+    color: grey;
+}
+
+
+.card-title {
+    font-size: 40px;
+    color: rgb(51, 51, 51);
+}
+
+.card-text {
+    font-size: 20px;
 }
 
 .btn {
     margin-right: 5px;
     margin-left: 5px;
     width: 90px;
+}
+
+.jumbotron {
+    background-image: url("header.jpg");
+    width: 1340px;
+    height: 400px;
+}
+
+.card {
+    margin-top: 60px;
+    margin-left: 45px;
+    width: 440px;
+    height: 270px;
 }
