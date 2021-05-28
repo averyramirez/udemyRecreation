@@ -28,10 +28,9 @@ i {
     color: rgb(82, 82, 82);
 }
 
-
 .navbar {
-    height: 72px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .form-control {
@@ -81,6 +80,10 @@ i {
     font-size: 100px;
 }
 
+.button-addon2 {
+    border: none;
+}
+
 .jumbotron {
     background-image: url("https://img-b.udemycdn.com/notices/home_banner/image_udlite/8a5d045c-2dd2-4a4d-bb0e-a487af8a5aa0.jpg?secure=pcfANf-zmHg4guAUGIQkRQ%3D%3D%2C1622305542");
     width: 1340px;
@@ -104,30 +107,24 @@ i {
 
 
 .round {
-    width: 100%;
+    width: 1020px;
+    height: 48px;
     border-radius: 25px;
-    border: 1px #000 solid;
+    border: 1px rgb(88, 88, 88) solid;
     padding: 5px 5px 5px 25px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
 }
 
 .corner {
-    position: absolute;
     top: 3px;
     left: 5px;
     height: 20px;
     width: 20px;
-    z-index: 10;
     border-radius: 10px;
     border: none;
     background: #000; /* Set the bg image here. with "no-repeat" */
 }
 
 .search {
-    position: relative;
     width: 1000px;
     height: 100px;
 }
