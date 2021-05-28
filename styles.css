@@ -73,12 +73,8 @@ i {
 .btn {
     margin-right: 5px;
     margin-left: 5px;
-    font-size: 100px;
 }
 
-.btn .btn-link {
-    font-size: 100px;
-}
 
 .button-addon2 {
     border: none;
@@ -90,11 +86,14 @@ i {
     height: 400px;
 }
 
-.card {
+.dreamUp {
     margin-top: 60px;
     margin-left: 45px;
     width: 440px;
     height: 215px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
 }
 
 .wrapper{
