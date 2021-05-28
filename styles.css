@@ -1,8 +1,6 @@
 i {
     color: grey;
-    font-size: 22px;
-    margin-left: 15px;
-    margin-right: 15px;
+    font-size: 16px;
 }
 
 .d-flex {
@@ -31,10 +29,12 @@ i {
 .navbar {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    height: 70px;
 }
 
 .form-control {
     background-color: #fbfbf8;
+    height: 48px;
 }
 
 
@@ -49,9 +49,10 @@ i {
 }
 
 .learningText {
-    font-size: 23px;
+    font-size: 24px;
     font-weight: bold;
-    color: rgb(53, 53, 53);
+    color: rgb(60, 59, 55);
+    margin-bottom: 0;
 }
 
 .learningTagline {
@@ -59,20 +60,36 @@ i {
     color: grey;
 }
 
+.coursesCard {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 1310px;
+}
 
 .card-title {
     font-size: 39px;
-    color: rgb(53, 53, 53);
+    color: rgb(60, 59, 55);
     font-weight: bold;
+    margin-top: 5px;
+    margin-left: 2px;
 }
 
 .card-text {
     font-size: 20px;
+    font-weight: 378;
+    color: rgb(60, 59, 55);
+    margin-left: 5px;
 }
+
 
 .btn {
     margin-right: 5px;
     margin-left: 5px;
+    border: none;
+    color: rgb(82, 82, 82);
 }
 
 
@@ -125,5 +142,4 @@ i {
 
 .search {
     width: 1000px;
-    height: 100px;
 }
