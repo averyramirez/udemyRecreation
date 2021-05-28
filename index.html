@@ -24,10 +24,11 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <button type="button" class="btn" data-toggle="popover" title="Popover title" data-content="Default popover" data-placement="bottom" data-content="Bottom popover" data-bs-content="Development <br> Business">Categories</button>
-              <form class="d-flex">
-                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
-                <input class="form-control me-2" type="search" placeholder="Search for anything" aria-label="Search">
-              </form>
+              <form id="search-form">
+                <div class="search">
+                  <input type="text" name="search" class="round" />
+                </div>
+            </form>
               <li class="nav-item">
                 <button type="button" class="btn btn-link" data-toggle="popover" title="Popover title" data-content="Default popover" data-placement="bottom" data-content="Bottom popover">Udemy for Business</button>
               </li>
@@ -73,12 +74,7 @@
       </div>
 
 
-      <form id="search-form">
-        <div class="search">
-          <input type="text" name="search" class="round" />
-          <input type="submit" class="corner" value="" />
-        </div>
-    </form>
+
 
     
     <script src="app.js"></script>
