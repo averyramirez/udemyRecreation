@@ -12,7 +12,7 @@ i {
 }
 
 .nav-link {
-    font-size: 14px;
+    font-size: 12px;
     color: black;
 }
 
@@ -21,7 +21,7 @@ i {
 }
 
 .nav-item {
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(0, 0, 0);
 }
 
@@ -31,7 +31,7 @@ i {
 }
 
 .nav2-item {
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(41, 41, 41);
     margin-left: 30px;
     margin-right: 30px;
@@ -79,7 +79,8 @@ i {
 .btn {
     margin-right: 5px;
     margin-left: 5px;
-    width: 90px;
+    font-size: 14px;
+    /* width: 90px; */
 }
 
 .jumbotron {
