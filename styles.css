@@ -181,3 +181,9 @@ i {
     margin-left: 5px;
     margin-top: 10px;
 }
+
+.courseHeader {
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(60, 59, 55);
+}
