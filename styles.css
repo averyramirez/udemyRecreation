@@ -34,7 +34,7 @@ i {
 .navbar {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 20px 0 rgba(0, 0, 0, 0.1);
-    height: 70px;
+    height: 72px;
 }
 
 .form-control {
@@ -50,7 +50,7 @@ i {
 
 .learning {
     margin-left: 305px;
-    margin-top: 75px;
+    margin-top: 65px;
 }
 
 .learningText {
@@ -63,6 +63,7 @@ i {
 .learningTagline {
     font-size: 16px;
     color: grey;
+    margin-top: 3px;
 }
 
 .coursesCard {
@@ -94,10 +95,10 @@ i {
 }
 
 .categories {
-    margin-top: 15px;
+    margin-top: 16px;
     margin-right: 15px;
     font-size: 14px;
-    color:rgb(60, 59, 55)
+    color:rgb(77, 76, 74);
 }
 
 
@@ -140,10 +141,12 @@ i {
 
 
 .round {
-    width: 1020px;
+    width: 1030px;
     height: 48px;
+    margin-left: 8px;
+    margin-top: 1px;
     border-radius: 25px;
-    border: 1px rgb(88, 88, 88) solid;
+    border: 1px rgb(102, 101, 94) solid;
     padding: 5px 5px 5px 25px;
 }
 
@@ -155,11 +158,6 @@ i {
     border-radius: 10px;
     border: none;
     background: #000; /* Set the bg image here. with "no-repeat" */
-}
-
-.search {
-    width: 1000px;
-    background-color: #fbfbf8;
 }
 
 .nav-tabs {
