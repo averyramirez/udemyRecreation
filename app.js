@@ -22,3 +22,11 @@ $('.nav-tabs a').click(function(){
   
   // Select fourth tab (zero-based)
   $('.nav-tabs li:eq(3) a').tab('show')
+
+
+var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
