@@ -26,14 +26,15 @@
               <button type="button" class="btn" data-toggle="popover" data-content="Default popover" data-placement="bottom" data-content="Bottom popover" data-bs-content="Development <br> Business">Categories</button>
               <form id="search-form">
                 <div class="search">
-                  <input type="text" name="search" class="round">
+                  <input type="text" name="search" class="round" placeholder="Search for anything">
                 </div>
             </form>
+
               <li class="nav-item">
-                <button type="button" class="btn" data-toggle="popover" title="Popover title" data-content="Default popover" data-placement="bottom" data-content="Bottom popover">Udemy for Business</button>
+                <a class="popoverLinks" data-toggle="popover" title="Popover title" data-content="Default popover" data-placement="bottom" data-content="Bottom popover">Udemy for Business</a>
               </li>
               <li class="nav-item">
-                <button type="button" class="btn" data-toggle="popover" title="Popover title" data-content="Default popover" data-placement="bottom" data-content="Bottom popover">Teach on Udemy</button>
+                <a class="popoverLinks" data-toggle="popover" title="Popover title" data-content="Default popover" data-placement="bottom" data-content="Bottom popover">Teach on Udemy</a>
               </li>
               <li class="nav-item">
                 <i class="fas fa-shopping-cart"></i>
@@ -73,29 +74,24 @@
         <p class="learningTagline">Choose from 155,000 online video courses with new additions published every month</p>
       </div>
 
-<div class="coursesCard">
-      <div class="card">
-        <div class="card-header">
-          <ul class="nav nav-tabs card-header-tabs">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        </div>
-      </div>
+
+
+
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">Python</a></li>
+  <li><a data-toggle="tab" href="#menu1">Excel</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane">
+    <h3>Expand your career opportunities with Python</h3>
+    <p>Whether you work in machine learning or finance, or are pursuing a career in web development or data science, Python is one of the most important skills you can learn. Python's simple syntax is especially suited for desktop, web, and business...</p>
+  </div>
+  <div id="menu1" class="tab-pane">
+    <h3>Analyze and visualize data with Excel</h3>
+    <p>Regardless of the industry you work in, Microsoft Office Excel is an invaluable spreadsheet program for organizing and representing data. Excel offers functions, formulas, and pivot tables to help you aggregate and then analyze large sets of...</p>
+  </div>
 </div>
-
-
 
     
     <script src="app.js"></script>
