@@ -117,8 +117,9 @@ i {
 
 .jumbotron {
     background-image: url("https://img-b.udemycdn.com/notices/home_banner/image_udlite/8a5d045c-2dd2-4a4d-bb0e-a487af8a5aa0.jpg?secure=pcfANf-zmHg4guAUGIQkRQ%3D%3D%2C1622305542");
-    width: 1350px;
+    width: 1340px;
     height: 400px;
+    margin-right: 16px;
 }
 
 .dreamUp {
@@ -141,10 +142,10 @@ i {
 
 
 .round {
-    width: 1030px;
+    width: 1059px;
     height: 48px;
-    margin-left: 8px;
-    margin-top: 1px;
+    margin-left: 5px;
+    margin-top: 2px;
     border-radius: 25px;
     border: 1px rgb(102, 101, 94) solid;
     padding: 5px 5px 5px 25px;
@@ -184,7 +185,7 @@ i {
 .popoverLinks {
     font-size: 14px;
     margin-left: 5px;
-    margin-top: 10px;
+    margin-top: 11px;
 }
 
 .courseHeader {
