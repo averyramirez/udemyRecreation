@@ -8,6 +8,10 @@ i {
     margin-left: 20px;
 }
 
+.nav {
+    background-color: white;
+}
+
 .nav-link {
     color: black;
 }
@@ -83,6 +87,11 @@ i {
     color: rgb(60, 59, 55);
     margin-left: 5px;
 }
+
+.card-header {
+    background-color: white;
+}
+
 
 
 .btn {
