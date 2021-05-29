@@ -187,3 +187,7 @@ i {
     font-weight: bold;
     color:rgb(60, 59, 55);
 }
+
+.modal {
+    margin-top: 260px;
+}
