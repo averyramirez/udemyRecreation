@@ -221,7 +221,7 @@
     display: flex;
     justify-content: center;
     margin-left: 339px;
-    margin-top: 50px;
+    margin-top: 52px;
 }
 
 
@@ -241,4 +241,8 @@
 
 .modal {
     margin-top: 260px;
+}
+
+p {
+    line-height: 1.4;
 }
