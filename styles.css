@@ -1,6 +1,14 @@
-i {
+.fa-search {
     color: grey;
     font-size: 17px;
+}
+
+.btn-outline-dark {
+    margin-top: 6px;
+    height: 40px;
+    margin-left: 3px;
+    color:rgb(82, 82, 82);
+    width: 40px;
 }
 
 .nav {
@@ -26,7 +34,6 @@ i {
     box-shadow: 0 2px 3px 0 rgba(20, 20, 20, 0.1), 0 3px 20px 0 rgba(20, 20, 20, 0.1);
     height: 72px;
 }
-
 
 .form-control {
     background-color: #fbfbf8;
@@ -98,14 +105,17 @@ i {
 
 
 .btn-outline-info {
-    width: 90px;
+    width: 100px;
+    height: 40px;
     margin-top: 6px;
     margin-bottom: 2px;
+    margin-right: 8px;
     color: darkcyan;
 }
 
 .btn-info {
-    width: 90px;
+    width: 100px;
+    height: 40px;
     margin-top: 6px;
     margin-bottom: 2px;
     margin-right: 5px;
@@ -117,8 +127,10 @@ i {
 }
 
 .shoppingCart {
-    margin-top: 8px;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 15px;
+    color:rgb(60, 59, 55)
 }
 
 .jumbotron {
@@ -144,6 +156,10 @@ i {
     border-color: black;
 }
 
+.shoppingCart {
+    margin-top: 10px;
+}
+
 
 .popover .arrow {
     display: none;
@@ -156,8 +172,10 @@ i {
     margin-left: 5px;
     margin-top: 2px;
     border-radius: 25px;
-    border: 1px rgb(102, 101, 94) solid;
+    border: 1px rgb(136, 135, 127) solid;
     padding: 5px 5px 5px 25px;
+    background-color: rgb(251, 251, 248);
+    font-size: 14px;
 }
 
 .corner {
